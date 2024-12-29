@@ -1,7 +1,7 @@
 # 站点基本信息
 title: "Moonshot Blog"
 description: "探索技术与创新的边界。"
-url: " https://hideonbush-star.github.io/GitHubPages/" # 你的网站地址
+url: "https://hideonbush-star.github.io/GitHubPages/"  # 你的网站地址
 
 # 作者信息
 author:
@@ -82,5 +82,5 @@ footer:
 # 部署设置
 # deploy:
 #   provider: "github"
-#   repo: " https://hideonbush-star.github.io/GitHubPages/"
+#   repo: "https://hideonbush-star.github.io/GitHubPages/"
 #   branch: "master"
