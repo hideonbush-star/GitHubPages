@@ -1,3 +1,86 @@
-remote_theme: pages-themes/leap-day@v0.2.0
-title: My Homepage
-description: For Github Pages notes
+# 站点基本信息
+title: "Moonshot Blog"
+description: "探索技术与创新的边界。"
+url: " https://hideonbush-star.github.io/GitHubPages/" # 你的网站地址
+
+# 作者信息
+author:
+  name: "GuoFuKang"
+  email: "414089896@qq.com"
+  github: "hideonbush-star"
+  twitter: "none"
+
+# 分类和标签
+permalink: /:year/:month/:day/:title/
+paginate: 10 # 每页文章数量
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 包含和排除文件
+include:
+  - _pages
+exclude:
+  - README.md
+  - LICENSE
+  - node_modules
+  - script
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+
+# 其他配置
+markdown: kramdown
+highlighter: rouge
+lsi: false
+safe: true
+source: .
+incremental: false
+
+# 站点语言和时区
+lang: en-US
+timezone: America/New_York
+
+# 导航栏配置
+nav:
+  - name: "首页"
+    url: /
+  - name: "关于"
+    url: /about/
+  - name: "文章归档"
+    url: /archive/
+  - name: "标签"
+    url: /tags/
+
+# 评论系统
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "your-disqus-shortname"
+
+# 分析工具
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-123456789-1"
+
+# 社交分享
+social:
+  name: "Moonshot Blog"
+  links:
+    - "https://github.com/hideonbush-star"
+
+# 页脚版权信息
+footer:
+  copyright: "&copy; 2024 Moonshot Blog. All rights reserved."
+
+# 部署设置
+# deploy:
+#   provider: "github"
+#   repo: " https://hideonbush-star.github.io/GitHubPages/"
+#   branch: "master"
